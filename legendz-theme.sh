@@ -58,6 +58,8 @@ echo "Clearing caches..."
 php artisan view:clear
 php artisan config:clear
 php artisan up
+yarn build:production
+php artisan view:clear
 # Cleanup temporary files
 echo "Cleaning up temporary files..."
 rm -rf panel.zip panel-theme
